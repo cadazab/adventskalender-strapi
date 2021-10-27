@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "book_tests",
+  "info": {
+    "name": "Book test"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "E_ID": {
+      "type": "integer"
+    },
+    "published": {
+      "type": "datetime"
+    }
+  }
+}
