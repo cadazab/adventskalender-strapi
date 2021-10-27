@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "another_ones",
+  "info": {
+    "name": "another_one"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "enum": {
+      "type": "enumeration",
+      "enum": [
+        "do",
+        "re",
+        "mi",
+        "fa"
+      ]
+    }
+  }
+}
