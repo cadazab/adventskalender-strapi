@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "asas",
+  "info": {
+    "name": "asas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sdfs": {
+      "type": "string"
+    }
+  }
+}
